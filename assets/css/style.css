@@ -2,6 +2,7 @@
     margin:0;
     box-sizing: border-box;
     padding: 0;
+    
 }
 
 #search-history{
@@ -40,4 +41,34 @@
 
 .channel-name{
     font-size: 20px;
+}
+
+.container {
+    padding: 20px 70px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.card-column {
+    flex: 1 1 250px;
+    margin: 10px;
+    border-radius: 1rem;
+}
+
+.card-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 1rem;
+    text-align: center;
+    min-height: 300px;
+    box-shadow: 0 0 10px;
 }

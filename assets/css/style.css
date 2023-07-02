@@ -5,7 +5,7 @@
 }
 
 #search-history{
-    font-size: 1.2rem;
+    font-size: small 2px;
     color: grey;
     text-align: center;
     cursor: pointer;
@@ -24,16 +24,20 @@
     margin: 0 auto;
     text-align: center;
 }
+
 .text-box {
     color: white;
-    width: 200px;
-    height: 180px;
+    width: 100px;
+    height: 100px;
     float: left;
     background-color: red;
     padding: 10px;
-    font-size: 2px;
     border: 1px solid grey;
     border-radius: 1rem;
     text-align: center;
     box-shadow: 0 0 10px red;
+}
+
+.channel-name{
+    font-size: 20px;
 }

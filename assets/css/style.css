@@ -3,3 +3,37 @@
     box-sizing: border-box;
     padding: 0;
 }
+
+#search-history{
+    font-size: 1.2rem;
+    color: grey;
+    text-align: center;
+    cursor: pointer;
+}
+
+#search-button{
+    cursor: pointer;
+    color: green; 
+    display: block; 
+    text-align: center;
+    margin: 0 auto; 
+}
+
+#search-input{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.text-box {
+    color: white;
+    width: 200px;
+    height: 180px;
+    float: left;
+    background-color: red;
+    padding: 10px;
+    font-size: 2px;
+    border: 1px solid grey;
+    border-radius: 1rem;
+    text-align: center;
+    box-shadow: 0 0 10px red;
+}

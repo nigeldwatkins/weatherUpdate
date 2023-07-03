@@ -5,7 +5,7 @@ const cityName = document.getElementById("cityname");
 const cityHistory = document.getElementById("city-history");
 
 const indexs = [0, 7, 15, 23, 31, 39];
-
+// sets arrays to html elements
 const cityday = [
     document.getElementById("cityday"),
     document.getElementById("cityday1"),
@@ -41,3 +41,12 @@ const wind = [
     document.getElementById("wind4"),
     document.getElementById("wind5"),
 ];
+
+const weatherIcon = [
+    document.getElementById("weather-icon"),
+    document.getElementById("weather-icon1"),
+    document.getElementById("weather-icon2"),
+    document.getElementById("weather-icon3"),
+    document.getElementById("weather-icon4"),
+    document.getElementById("weather-icon5"),
+]
